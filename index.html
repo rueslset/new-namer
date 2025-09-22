@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>“衣”心“衣”意</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+      background-color: #f4f4f4;
+    }
+
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+      display: flex;
+    }
+
+    nav ul li {
+      margin-right: 15px;
+    }
+
+    table {
+      border-collapse: collapse;
+      margin: 10px 0;
+    }
+
+    table,
+    th,
+    td {
+      border: 1px solid black;
+    }
+
+    .brand-recommendation p:nth-last-child(2) {
+      color: #008000; /* 劳力士绿色近似值 */
+      font-family: "FangSong", sans-serif;
+    }
+
+    .brand-recommendation p:last-child {
+      color: #0abab5; /* 提夫尼蓝色近似值 */
+      font-family: "SimSun", sans-serif;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>“衣”心“衣”意 <span style="color: #ffff00;">淡黄色（此处仅为示意，实际淡黄色背景未精确设置）</span></h1>
+    <div>
+      <p>联系电话: XXX</p>
+      <input type="text" placeholder="搜索">
+    </div>
+  </header>
+
+  <nav>
+    <ul>
+      <li>主页</li>
+      <li>购买</li>
+      <li>精选</li>
+      <li>发现</li>
+      <li>品牌</li>
+    </ul>
+  </nav>
+
+  <section>
+    <h2>为你推荐：</h2>
+    <table>
+      <tr>
+        <td>冲锋衣</td>
+        <td>棉服</td>
+        <td>跑步短裤</td>
+      </tr>
+      <tr>
+        <td>风衣</td>
+        <td>夹克</td>
+        <td>工装裤</td>
+      </tr>
+      <tr>
+        <td>卫衣</td>
+        <td>羊绒衫</td>
+        <td>绒感外套</td>
+      </tr>
+    </table>
+  </section>
+
+  <section class="brand-recommendation">
+    <h2>品牌推荐：</h2>
+    <p>耐克</p>
+    <p>安踏</p>
+    <p>李宁</p>
+    <p>特步</p>
+    <p>企鹅</p>
+    <p>猫人</p>
+    <!-- 以下两段按照要求设置样式 -->
+    <p>这是劳力士绿色、仿宋体的文字</p>
+    <p>这是提夫尼蓝色、宋体加粗的文字</p>
+  </section>
+</body>
+
+</html>
